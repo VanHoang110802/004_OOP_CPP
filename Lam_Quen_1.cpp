@@ -1,7 +1,8 @@
 /*
 Nhập Học Sinh
 Xuất học sinh
-Tính trung bình môn
+Nhập điểm toán, văn
+Tính trung bình 2 môn
 */
 
 /*
