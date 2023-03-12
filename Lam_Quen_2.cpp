@@ -1,6 +1,7 @@
 // viet ham dinh nghia ra ngoai class:
 // <kieu du lieu> <ten class> :: <ten phuong thuc>
 // cu phap goi: <ten phuong thuc> cua <ten class>
+// luu y: phai co class con truoc moi den class cha.
 
 #include <iostream>
 #include <string>
