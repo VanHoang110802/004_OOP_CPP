@@ -1,7 +1,17 @@
-// viet ham dinh nghia ra ngoai class:
-// <kieu du lieu> <ten class> :: <ten phuong thuc>
-// cu phap goi: <ten phuong thuc> cua <ten class>
-// luu y: phai co class con truoc moi den class cha.
+/*
+Nhập Học Sinh
+Nhập ngày tháng năm sinh của sinh viên
+Xuất học sinh
+Nhập điểm toán, văn
+Tính trung bình 2 môn
+*/
+
+/* 
+viet ham dinh nghia ra ngoai class:
+<kieu du lieu> <ten class> :: <ten phuong thuc>
+cu phap goi: <ten phuong thuc> cua <ten class>
+luu y: phai co class con truoc moi den class cha.
+*/
 
 #include <iostream>
 #include <string>
