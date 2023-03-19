@@ -1,7 +1,3 @@
-/*
-Nhập 1 phân số, cho biết xem phân số đó là âm hay dương hay bằng không.
-*/
-
 #include <iostream>
 using namespace std;
 
@@ -12,7 +8,7 @@ private:
 public:
 	void Nhap();
 	void Xuat();
-	double kiemTra();
+	double KiemTraPhanSo();
 };
 
 void PhanSo::Nhap()
@@ -32,7 +28,7 @@ void PhanSo::Xuat()
 	cout << "Phan so vua nhap: " << this->tuSo << '/' << this->mauSo;
 }
 
-double PhanSo::kiemTra()
+double PhanSo::KiemTraPhanSo()
 {
 	double ans = (double)this->tuSo / this->mauSo;
 	return ans;
@@ -40,10 +36,10 @@ double PhanSo::kiemTra()
 
 int main()
 {
-	PhanSo ps;
-	ps.Nhap();
-	ps.Xuat();
-	double check = ps.kiemTra();
+	PhanSo pS;
+	pS.Nhap();
+	pS.Xuat();
+	double check = pS.KiemTraPhanSo();
 	if (check == 0) cout << "\nPhan so khong am khong duong";
 	else if (check < 0) cout << "\nLa phan so am";
 	else cout << "\nLa phan so duong";
