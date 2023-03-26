@@ -12,8 +12,11 @@ I. Phương thức khởi tạo (constructor)
 3. Có thể có nhiều phương thức khởi tạo bên trong 1 lớp (cơ chế nập chồng overloading do phân biệt nhau qua tham số truyền vào)
 
 * Các loại phương thức khởi tạo
+
 1/ Phương thức khởi tạo mặc định
+
 2/ Phương thức khởi tạo có tham số truyền vào
+
 3/ Phương thức khởi tạo sao chép
 
 I. Phương thức khởi tạo mặc định
