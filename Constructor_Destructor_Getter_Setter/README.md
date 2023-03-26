@@ -11,13 +11,15 @@ I. Phương thức khởi tạo (constructor)
 2. Tự động được gọi thực thi ngay khi đối tượng của lớp đó được tạo lập ra (có bao nhiêu đối tượng được tạo thì sẽ có bấy nhiêu lần phương thức đó được thực thi)
 3. Có thể có nhiều phương thức khởi tạo bên trong 1 lớp (cơ chế nập chồng overloading do phân biệt nhau qua tham số truyền vào)
 
-* Các loại phương thức khởi tạo
+* Các loại phương thức khởi tạo:
 
 1/ Phương thức khởi tạo mặc định
 
 2/ Phương thức khởi tạo có tham số truyền vào
 
 3/ Phương thức khởi tạo sao chép
+
+---
 
 I. Phương thức khởi tạo mặc định
 - Là phương thức khởi tạo không có tham số truyền vào
