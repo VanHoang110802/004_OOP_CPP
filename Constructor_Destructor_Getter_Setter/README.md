@@ -26,6 +26,7 @@ II. Phương thức khởi tạo có tham số truyền vào
 - Là phương thức khởi tạo nhận tham số đầu vào "tùy ý" do người dùng định nghĩa, sẽ lấy đó làm dữ liệu tạo cho đối tượng.
 
 Ví dụ: https://www.ideone.com/uPzw6y
+
 III. Phương thức khởi tạo sao chép
 - Là phương thức khởi tạo nhận tham số đầu vào là 1 đối tượng cùng thuộc lớp đó, nó truyền dữ liệu qua cho đối tượng đang xét để tạo lập nên đối tượng đó.
 
@@ -58,6 +59,7 @@ V. Những lưu ý tự rút:
 3/ Phương thức phá hủy tự động được gọi khi đối tượng hết phạm vi sử dụng, mặc định đối với những đối tượng không có thuộc tính là con trỏ thì không cần cài đặt cho phương thức phá hủy (để rỗng), còn các đối tượng có dùng con trỏ thì phải giải phóng vùng nhớ bên trong phương thức phá hủy.
 
 VI. GETTER & SETTER
+
 1/ GETTER
 - Cho phép lấy dữ liệu hiện tại (thuộc tính) đang ở tầm vực private của đối tượng đem ra bên ngoài cho 1 số trường hợp cần
 thiết. Lưu ý là chỉ lấy ra để so sánh, xem chứ không thay đổi lại được.
