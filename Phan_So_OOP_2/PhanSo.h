@@ -8,10 +8,13 @@ class PhanSo
 {
 private:
 	int tuso, mauso;
-
 public:
-	void nhap();
-	void xuat();
+	void Nhap();
+	void Xuat();
 	double TinhKetQuaPhanSo();
-	void rutgon();
+	void RutGon();
+	PhanSo TinhTong(PhanSo);
+	PhanSo TinhHieu(PhanSo);
+	PhanSo TinhTich(PhanSo);
+	PhanSo TinhThuong(PhanSo);
 };
