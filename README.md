@@ -16,8 +16,9 @@ I. GIỚI THIỆU TỔNG QUAN VỀ LẬP TRÌNH HƯỚNG ĐỐI TƯỢNG
   
   3.1. Đối tượng(object):
   - Là thực thể thể hiện của 1 lớp. Trong đối tượng có 2 thành phần quan trọng:
-  + Thuộc tính(Attribute): tính chất, dữ liệu của đối tượng.
-  + Phương thức(Method): các hành động liên quan đến đối tượng đó.
+      
+      + Thuộc tính(Attribute): tính chất, dữ liệu (thông tin) của đối tượng.
+      + Phương thức(Method): các hành động liên quan đến đối tượng đó.
 
   3.2. Lớp(class):
   - Là mô hình hóa nhóm các đối tượng cùng loại.
@@ -56,3 +57,26 @@ III. NHỮNG TÍNH CHẤT CỦA HƯỚNG ĐỐI TƯỢNG:
 - Giả sử chúng ta đã có một lớp cha và một vài lớp con kế thừa. Đôi khi chúng ta muốn sử dụng một tập hợp, ví dụ một danh sách các lớp con này. Hay chúng ta có một method riêng cho class cha, nhưng nếu ta cũng muốn sử dụng method này cho class con?
 
 - Tính đa hình đưa ra cách sử dụng một lớp con giống hệt như lớp cha để không có sự nhầm lẫn, bối rối nào giữa các dạng khác nhau. Nhưng mỗi lớp con vẫn giữ nguyên method của mình. Điều này thường xảy ra khi tái sử dụng một giao thức lớp cha. Nó đưa ra những method phổ biến, rồi mỗi lớp con thực hiện phiên bản method riêng của nó.
+
+
+*****************************************************************************************************************************
+
+KIẾN THỨC THÊM
+
+(Có 2 cách làm: chia file & không chia file. Ở đây mình sẽ chưa chia file vội để nắm bản chất đã)
+
+This trong class c++ hay còn gọi là con trỏ this trong class c++ là một con trỏ đặc biệt ẩn dấu bên trong hàm thành viên của class, có tác dụng trỏ đến đối tượng đã gọi đến hàm thành viên đó.
+
+Điều đó có nghĩa, khi một đối tượng gọi tới một hàm thành viên nào đó trong class thì con trỏ this sẽ trỏ đến vị trí của đối tượng đó để xác định đối tượng đang trong phiên làm việc, qua đó nó có thể giúp đối tượng đó có thể tiếp tục truy cập và xử lý các biến thành viên có trong class.
+
+Nói một cách ví von thì con trỏ this trong class c++ giống như là một người lễ tân, nó sẽ xác định vị khách (đối tượng) đã gọi phòng (goị hàm thành viên) là ai, vị trí của khách đó ( vị trí đối tượng trong bộ nhớ) đang ngồi ở chỗ nào, và sẽ giúp vị khách đó có thể thưởng thức một tách trà nóng (biến thành viên) của khách sạn (class).
+
+Mặc dù con trỏ this được tự động khai báo và cống hiến thầm lặng cho chúng ta sau khi tạo hàm thành viên trong class, nhưng thông thường thì nó sẽ được ẩn đi, do vậy chúng ta không mấy để ý tới sự tồn tại của nó. Tuy nhiên nếu viết rõ ra con trỏ this trong khai báo hàm thì sẽ giúp chúng ta hình dung rõ hơn về các xử lý trong class C++.
+
+Vậy thì this trong class C++ có thật sự cần thiết không?
+
+Câu trả lời là có, trong các trường hợp chúng ta muốn phân biệt rõ giữa các biến toàn cục (glocal) và các biến thành viên chỉ sử dụng bên trong class.
+
+Đơn giản là vì đằng trước biến thành viên chúng ta có thể ghi this đằng trước tên biến, còn đối với biến toàn cục (glocal) thì không.
+
+Ngoài ra, bằng cách sử dụng this trong class C++, chúng ta có thể sử dụng chung tên biến giữa một biến toàn cục và một biến thành viên, miễn là đằng trước biến thành viên đó chúng ta có ghi this, để phân biệt với biến toàn cục cùng tên với nó.
