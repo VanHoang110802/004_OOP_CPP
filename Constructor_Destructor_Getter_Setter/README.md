@@ -66,6 +66,7 @@ thiết. Lưu ý là chỉ lấy ra để so sánh, xem chứ không thay đổi
 
 Ví dụ: https://www.ideone.com/PY0H6L
 
-2/ Cho phép từ bên ngoài lớp ta có thể truy xuất vào được thuộc tính nằm bên trong lớp đang bị giới hạn bởi tầm vực là private và sẽ thay đổi lại nó nếu ta muốn (Yên tâm là ta có sự kiểm soát rõ ràng)
+2/ SETTER 
+- Cho phép từ bên ngoài lớp ta có thể truy xuất vào được thuộc tính nằm bên trong lớp đang bị giới hạn bởi tầm vực là private và sẽ thay đổi lại nó nếu ta muốn (Yên tâm là ta có sự kiểm soát rõ ràng)
 
 Ví dụ: https://www.ideone.com/amcpQO
