@@ -60,7 +60,8 @@ public:
 	SinhVien(string, string, double, double);
 	SinhVien(string, string, NgayThangNam);
 	SinhVien(string, string, NgayThangNam, double, double);
-	//SinhVien(const SinhVien&);
+	SinhVien(string, string, int, int, int, double, double);
+	SinhVien(const SinhVien&);
 	void Xuat();
 	~SinhVien(void);
 };
@@ -115,9 +116,23 @@ SinhVien::SinhVien(string maSV, string fullName, NgayThangNam ntn, double dlt, d
 	this->diemThucHanh = dth;
 }
 
-SinhVien::~SinhVien()
+SinhVien::SinhVien(string maSV, string fullName, int ngay, int thang, int nam, double dlt, double dth)
 {
+	this->maSo = maSV;
+	this->hoTen = fullName;
+	NgayThangNam ntnTemp(ngay, thang, nam);
+	ntn = ntnTemp;
+	this->diemLyThuyet = dlt;
+	this->diemThucHanh = dth;
+}
 
+SinhVien::SinhVien(const SinhVien& sv)
+{
+	this->maSo = sv.maSo;
+	this->hoTen = sv.hoTen;
+	ntn = sv.ntn;
+	this->diemLyThuyet = sv.diemLyThuyet;
+	this->diemThucHanh = sv.diemThucHanh;
 }
 
 void SinhVien::Xuat()
@@ -127,6 +142,12 @@ void SinhVien::Xuat()
 	ntn.Xuat();
 	cout << "Diem ly thuyet: " << this->diemLyThuyet;
 	cout << "\nDiem thuc hanh: " << this->diemThucHanh;
+}
+
+
+SinhVien::~SinhVien()
+{
+
 }
 
 int main()
@@ -159,5 +180,12 @@ int main()
 	SinhVien sv6(ma, fullName, ntn, dlt, dth);
 	sv6.Xuat();
 	cout << "\n\n";
+
+	SinhVien sv7(ma, fullName, ngay, thang, nam, dlt, dth);
+	sv7.Xuat();
+	cout << "\n\n";
+
+	SinhVien sv8(sv3);
+	sv8.Xuat();
 	return 0;
 }
