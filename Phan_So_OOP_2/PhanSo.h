@@ -14,9 +14,4 @@ public:
 	void xuat();
 	double TinhKetQuaPhanSo();
 	void rutgon();
-	PhanSo TinhTong(PhanSo);
-	PhanSo TinhHieu(PhanSo);
-	PhanSo TinhTich(PhanSo);
-	PhanSo TinhThuong(PhanSo);
 };
-
