@@ -36,23 +36,3 @@ void PhanSo::rutgon()
 	tuso /= temp;
 	mauso /= temp;
 }
-
-PhanSo PhanSo::TinhTong(PhanSo ps)
-{
-
-}
-
-PhanSo PhanSo::TinhHieu(PhanSo)
-{
-
-}
-
-PhanSo PhanSo::TinhTich(PhanSo)
-{
-
-}
-
-PhanSo PhanSo::TinhThuong(PhanSo)
-{
-
-}
