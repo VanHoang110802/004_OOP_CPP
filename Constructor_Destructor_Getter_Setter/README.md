@@ -2,7 +2,7 @@ I. Phương thức khởi tạo (constructor)
 
 * Sự cần thiết của constructor
 - Chuyện gì sẽ xảy ra nếu như người lập trình sử dụng 1 đối tượng trong class trong khi đối tượng đó chưa được khởi tạo ra?
---> Các thành phần thuộc tính của đối tượng sẽ nhận giá trị rác từ vùngn hớ (do còn sót lại trước đó) hoặc phải nhận 1 giá trị không mong muốn nào đó.
+--> Các thành phần thuộc tính của đối tượng sẽ nhận giá trị rác từ vùng nhớ (do còn sót lại trước đó) hoặc phải nhận 1 giá trị không mong muốn nào đó.
 
 -->> Mục đích của phương thức khởi tạo là nhằm khởi tạo các thành phần dữ liệu (thuộc tính) của đối tượng.
 
