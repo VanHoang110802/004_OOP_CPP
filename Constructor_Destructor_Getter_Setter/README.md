@@ -20,38 +20,7 @@ I. Phương thức khởi tạo mặc định
 - Là phương thức khởi tạo không có tham số truyền vào
 - Mặc định trình biên dịch sẽ phát sinh sẵn phương thức khởi tạo mặc định nếu như bản thân lớp đó không có bất kỳ phương thức khởi tạo nào khác.
 
-Ví dụ:
-#include <iostream>
-using namespace std;
-
-class HocSinh
-{
-private:
-	string hoTen;
-	double diemThi;
-public:
-	HocSinh(void); // phương thức khởi tạo mặc định
-	void Xuat();
-};
-
-HocSinh::HocSinh(void)
-{
-	hoTen = "Van Hoang";
-	diemThi = 9.98;
-	cout << "Phuong thuc khoi tao mac dinh da tao thanh cong!!!\n";
-}
-
-void HocSinh::Xuat()
-{
-	cout << '\n' << this->hoTen << ' ' << this->diemThi << '\n';
-}
-
-int main()
-{
-	HocSinh hs;
-	hs.Xuat();
-	return 0;
-}
+Ví dụ: https://www.ideone.com/kUitrB
 
 II. Phương thức khởi tạo có tham số truyền vào
 - Là phương thức khởi tạo nhận tham số đầu vào "tùy ý" do người dùng định nghĩa, sẽ lấy đó làm dữ liệu tạo cho đối tượng.
