@@ -1,5 +1,5 @@
 * GIỚI THIỆU VẤN ĐỀ *
-Đối với những kiểu dữ liệu có sẵn (số nguyên, số thực) thì ta có thể tự do sử dụng các phép toán tử bởi vì ngôn ngữ lập trình đã cung cấp sẵn cho ta, ví dụ:
+- Đối với những kiểu dữ liệu có sẵn (số nguyên, số thực) thì ta có thể tự do sử dụng các phép toán tử bởi vì ngôn ngữ lập trình đã cung cấp sẵn cho ta, ví dụ:
 
 int main()
 {
