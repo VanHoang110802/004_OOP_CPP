@@ -1,7 +1,9 @@
 * GIỚI THIỆU VẤN ĐỀ *
 - Đối với những kiểu dữ liệu có sẵn (số nguyên, số thực) thì ta có thể tự do sử dụng các phép toán tử bởi vì ngôn ngữ lập trình đã cung cấp sẵn cho ta, ví dụ:
 
+
 int main()
+
 {
 	int a = 6, b = 9;
 	
@@ -14,6 +16,7 @@ int main()
 	return 0;
 	
 }
+
 
 - Vậy còn đối với những kiểu dữ liệu không có sẵn mà do ta tự tạo ra (PhanSo, SoPhuc, HocSinh) thì có thể làm được như vậy không?
 
