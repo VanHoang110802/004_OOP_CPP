@@ -4,10 +4,15 @@
 int main()
 {
 	int a = 6, b = 9;
+	
 	cout << a + b;	// 15
+	
 	b = ++a;
+	
 	cout << "\na = " << a << " & b = " << b;	// a = 7, b = 7
+	
 	return 0;
+	
 }
 
 - Vậy còn đối với những kiểu dữ liệu không có sẵn mà do ta tự tạo ra (PhanSo, SoPhuc, HocSinh) thì có thể làm được như vậy không?
