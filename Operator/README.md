@@ -1,9 +1,10 @@
+{
+
 * GIỚI THIỆU VẤN ĐỀ *
 - Đối với những kiểu dữ liệu có sẵn (số nguyên, số thực) thì ta có thể tự do sử dụng các phép toán tử bởi vì ngôn ngữ lập trình đã cung cấp sẵn cho ta, ví dụ:
 
 
 int main()
-
 {
 
 	int a = 6, b = 9;
@@ -97,3 +98,5 @@ Từ khóa friend:
 
 * RÚT RA RỒI TÚM CÁI VÁY LẠI *
 - Nếu toán tử chồng không là hàm thành viên của lớp thì nên sử dụng từ khóa friend thay vì truy xuất đến các thành phần dữ liệu 1 cách phức tạp.
+
+}
